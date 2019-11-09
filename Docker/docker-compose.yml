@@ -12,6 +12,7 @@ services:
       MYSQL_DATABASE: fiapdb
       MYSQL_USER: brugrue
       MYSQL_PASSWORD: root
+      TZ: "America/Bahia"
     volumes:
       - ./mysql/script:/docker-entrypoint-initdb.d
       - ./mysql/data:/var/lib/mysql
@@ -22,6 +23,7 @@ services:
     environment:
       - GF_SERVER_ROOT_URL=http://192.168.99.101
       - GF_SECURITY_ADMIN_PASSWORD=root
+      - TZ=America/Bahia
     ports:
       - '3000:3000'
     user: "104"
