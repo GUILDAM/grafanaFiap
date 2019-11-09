@@ -4,3 +4,28 @@ composer.phar
 # Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
 # composer.lock
+*.MYD
+*.opt
+*.MYI
+*.frm
+*.ibd
+*.CSV
+Docker/mysql/data/auto.cnf
+Docker/mysql/data/ca-key.pem
+Docker/mysql/data/ca.pem
+Docker/mysql/data/client-cert.pem
+Docker/mysql/data/client-key.pem
+Docker/mysql/data/ib_buffer_pool
+Docker/mysql/data/ib_logfile0
+Docker/mysql/data/ib_logfile1
+Docker/mysql/data/ibdata1
+Docker/mysql/data/ibtmp1
+Docker/mysql/data/mysql/general_log.CSM
+Docker/mysql/data/mysql/slow_log.CSM
+Docker/mysql/data/private_key.pem
+Docker/mysql/data/public_key.pem
+Docker/mysql/data/server-cert.pem
+Docker/mysql/data/server-key.pem
+Docker/mysql/data/sys/sys_config.TRG
+Docker/mysql/data/sys/sys_config_insert_set_user.TRN
+Docker/mysql/data/sys/sys_config_update_set_user.TRN
